@@ -1,0 +1,83 @@
+#btn{
+	margin-top: 15px;
+
+}
+.service{background-color:gray;
+	border: 2px solid black;
+	padding: 12px;
+	margin-top: 15px;
+	box-sizing: border-box;
+	
+}
+.service p{
+	text-align: justify;
+	color:white;
+	margin-right: 6px;
+}
+.scroll{
+		max-height: 350px;
+		overflow: scroll;
+	}
+@media (max-width: 767px) {
+	.scroll{
+		max-height: 300px;
+		overflow: scroll;
+	}
+ }
+@media (min-width: 768px) and (max-width: 991) {
+	.scroll{
+		max-height: 340px;
+		overflow: scroll;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199) {
+	.scroll{
+		max-height: 350px;
+		overflow: scroll;
+	}
+}
+@media (min-width: 1200px) {
+	.scroll{
+		max-height: 330px;
+		overflow: scroll;
+	}
+}
+	
+		
+		
+
+		#comment {
+			padding-left: 15px;
+		}
+
+		#btn_comm {
+			margin-left: 15px;
+		}
+
+
+		.mobile{
+			background-image:url(portfolio2.png); 
+		height: 220px;
+		width: 350px;
+		margin: 15px;
+		color: blue;
+		font-size: 20px;
+		font-weight: bold;
+		} 
+		.web {
+		background-image:url(portfolio3.png); ;
+		height: 220px;
+		width: 350px;
+		margin: 15px;
+		color: blue;
+		font-size: 20px;
+		font-weight: bold;
+	
+		}
+
+
+		#web_btn, #mobile_btn , #all {
+			padding: 10px;
+			
+			margin-left: 100px;
+		}
